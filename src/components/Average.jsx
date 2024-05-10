@@ -40,27 +40,27 @@ const Average = () => {
                         <img src={adani} alt="" />
                     </div>
                 </Col>
-                <Col className=' col-auto  mt-3 mx-auto mb-hexagon mt-lg-0' data-aos="zoom-in">
+                <Col className=' col-auto  mt-3 mx-auto  mt-lg-0' data-aos="zoom-in">
                     <div className=' hexagon-box d-flex align-items-center justify-content-center'>
                         <img src={stripe} alt="" />
                     </div>
                 </Col>
-                <Col className=' col-auto  mt-3 mx-auto mb-hexagon mt-lg-0' data-aos="zoom-in">
+                <Col className=' col-auto  mt-3 mx-auto  mt-lg-0' data-aos="zoom-in">
                     <div className=' hexagon-box d-flex align-items-center justify-content-center'>
                         <img src={google} alt="" />
                     </div>
                 </Col>
-                <Col className=' col-auto  mt-3 mx-auto mb-hexagon mt-lg-0' data-aos="zoom-in">
+                <Col className=' col-auto  mt-3 mx-auto  mt-lg-0' data-aos="zoom-in">
                     <div className=' hexagon-box d-flex align-items-center justify-content-center'>
                         <img src={spotify} alt="" />
                     </div>
                 </Col>
-                <Col className=' col-auto  mt-3 mx-auto mb-hexagon mt-lg-0' data-aos="zoom-in">
+                <Col className=' col-auto  mt-3 mx-auto  mt-lg-0' data-aos="zoom-in">
                     <div className=' hexagon-box d-flex align-items-center justify-content-center'>
                         <img src={tata} alt="" />
                     </div>
                 </Col>
-                <Col className=' col-auto  mt-3 mx-auto mb-hexagon mt-lg-0' data-aos="zoom-in">
+                <Col className=' col-auto  mt-3 mx-auto  mt-lg-0' data-aos="zoom-in">
                     <div className=' hexagon-box d-flex align-items-center justify-content-center'>
                         <img src={tesla} alt="" />
                     </div>
