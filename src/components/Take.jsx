@@ -13,7 +13,7 @@ const Take = () => {
         <div className=' take-pb'>
             <Container>
                 <div className=' d-flex flex-column flex-xl-row align-items-center justify-content-between'>
-                    <div className=' max-w-553 w-100 px-12'>
+                    <div className=' max-w-553 w-100 px-12 px-xl-0'>
                         <h2 className=' fs-1lg lh-1lg fw-bold color-black mb-3 text-center text-lg-start' data-aos="zoom-in"><span className=' text-gradient'>Take the </span> first step into AI  <span className=' text-gradient2'>Stock Trading</span> </h2>
                         <p className=' fw-normal fs-sm lh-2sm color-black mb-5' data-aos="zoom-in">In a matter of minutes, one of our AI mentors will contact you, No Experience Required!</p>
                         <div className=' max-w-516'>
