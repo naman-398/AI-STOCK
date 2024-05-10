@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Tradelong from './components/Tradelong';
+import Stastics from './components/Stastics';
+import Average from './components/Average';
+import Take from './components/Take';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
 function App() {
+  useEffect(() => {
+    AOS.init(
+      {once: true,
+      duration : 1500,}
+    );
+  }, [])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className=' overflow-hidden'>
+<Tradelong/>
+<Stastics/>
+<Average/>
+<Take/>
     </div>
   );
 }
